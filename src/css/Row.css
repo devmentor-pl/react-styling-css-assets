@@ -1,0 +1,19 @@
+/* ./src/css/Row.css */
+.Row {
+    --color-alfa: #6cb2d1;
+    background-color: #fce2c2;
+    background-image: url('./../images/logo.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    border: 2px solid var(--color-alfa);
+    color: var(--color-alfa);
+    padding: 20px;
+}
+/* ... */
+.Row--dark {
+    background-color: #c5aeb4;
+}
+
+.Row--space-medium {
+    padding: 100px;
+}
