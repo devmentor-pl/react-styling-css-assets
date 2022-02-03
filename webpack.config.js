@@ -43,7 +43,7 @@ module.exports = {
             },
             {
                 test: /\.(ttf|otf|woff|woff2)$/,
-                // dodaję rozszerzenia obrazów
+                // dodaję rozszerzenia fontów
                 use: 'file-loader',
                 // tym razem tylko jeden loader
             },
