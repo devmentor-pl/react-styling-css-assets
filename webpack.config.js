@@ -38,14 +38,14 @@ module.exports = {
             {
                 test: /\.(png|svg|jpg|gif)$/,
                 // dodaję rozszerzenia obrazów
-                use: 'file-loader',
-                // tym razem tylko jeden loader
+                type: 'asset',
+                // w webpack 5 nie wpisujemy tu już loadera
             },
             {
                 test: /\.(ttf|otf|woff|woff2)$/,
                 // dodaję rozszerzenia fontów
-                use: 'file-loader',
-                // tym razem tylko jeden loader
+                type: 'asset',
+                // w webpack 5 nie wpisujemy tu już loadera
             },
         ]
     },
